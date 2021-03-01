@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pure CSS Dynamic Custom List Style</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/all.min.js" ></script>
+    <script src="./js/jquery-3.5.1.min.js" ></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0N0LXD7Z3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D0N0LXD7Z3');
+    </script>
+    <script data-ad-client="ca-pub-9876627446239201" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+          <h1>Pure CSS Dynamic Custom List Style</h1>
+          <div class="how">
+            <dl>
+              <dt>Step1.</dt>
+              <dd>Select the template you want.</dd>
+            </dl>
+            <dl>
+              <dt>Step2.</dt>
+              <dd>Click the 'View Source' or 'Copy Source' button for get the code.</dd>
+            </dl> 
+            <dl>
+              <dt>Step3.</dt>
+              <dd>Past to your project.</dd>
+            </dl>            
+          </div>
+        </header>
+        <div id="content">
+          <div class="templates"> 
+              <!-- 1. diamond list -->
+              <section class="template">
+                <div class="thumbnail">
+                  <ul class="diamond_list">
+                    <li>test text 1</li>
+                    <li>test text 1</li>              
+                    <li>test text 1</li>
+                    <li>long text long text long text long text long text long text text 1</li>                
+                  </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with little circle style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="diamond_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+              
+<style>
+.diamond_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 19px;
+  font-size:16px;
+  line-height:20px;
+}
+.diamond_list li::before{
+  position:absolute;
+  top:5px;
+  left:2px;
+  display:inline-block;
+  width:7px;
+  height:7px;
+  background:#457dad;  
+  content:'';
+  transform:rotate(45deg);
+}
+</style>              
+                  </textarea>
+                </div>
+              </section>  
+              <!-- 2. circle list -->
+              <section class="template">
+                <div class="thumbnail">
+                  <ul class="circle_list">
+                    <li>test text 1</li>
+                    <li>test text 1</li>              
+                    <li>test text 1</li>
+                    <li>long text long text long text long text long text long text text 1</li>                 
+                  </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with little circle style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="circle_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+
+<style>
+.circle_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 18px;
+  font-size:16px;
+  line-height:20px;
+}
+.circle_list li::before{
+  position:absolute;
+  top:5px;
+  left:0px;
+  display:inline-block;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#457dad;  
+  content:'';
+}
+</style>
+                   
+                  </textarea>
+                </div>
+              </section>   
+              <!-- 3. triangle list -->
+              <section class="template">
+                <div class="thumbnail">
+                  <ul class="triangle_list">
+                    <li>test text 1</li>
+                    <li>test text 1</li>              
+                    <li>test text 1</li>
+                    <li>long text long text long text long text long text long text text 1</li>                 
+                  </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with right triangle style.</h4>                  
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="triangle_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+
+<style>
+.triangle_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 16px;
+  font-size:16px;
+  line-height:20px;
+}
+.triangle_list li::before{
+  position:absolute;
+  top:6px;
+  left:0px;
+  display:inline-block;
+  width:0px;
+  height:0px;
+  border-right:solid 6px #457dad;
+  border-top:solid 6px transparent;
+  transform:rotate(-45deg);
+  content:'';
+}
+</style>
+                    
+                  </textarea>
+                </div>
+              </section>   
+              <!-- 4. arrow number list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="arrow_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with right arrow style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="arrow_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+
+<style>
+.arrow_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 16px;
+  font-size:16px;
+  line-height:20px;
+}
+.arrow_list li::before{
+  position:absolute;
+  top:6px;
+  left:-2px;
+  display:inline-block;
+  width:5px;
+  height:5px;
+  border-right:solid 2px #457dad;
+  border-bottom:solid 2px #457dad;
+  transform:rotate(-45deg);
+  content:'';
+}
+</style>
+            
+                  </textarea>
+                </div>
+              </section>     
+              <!-- 5. dot number list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="number_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with auto number dot style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="number_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+              
+<style>
+.number_list{
+  counter-reset: my-sec-counter;
+}
+.number_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 17px;
+  font-size:16px;
+  line-height:20px;
+}
+.number_list li::before{
+  position:absolute;
+  top:0px;
+  left:-1px;
+  font-weight:bold;
+  color:#457dad;
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter) ".";  
+}
+</style>              
+                  </textarea>
+                </div>
+              </section> 
+              <!-- 6. circle number list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="circle_number_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with auto number circle style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="circle_number_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>  
+
+<style>
+.circle_number_list{
+  counter-reset: my-sec-counter;
+}
+.circle_number_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 23px;
+  font-size:16px;
+  line-height:20px;
+}
+.circle_number_list li::before{
+  position: absolute;
+  top: 1px;
+  left: -1px;
+  width: 17px;
+  height: 17px;
+  line-height: 17px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  background: #457dad;
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter); 
+}
+</style>            
+                  </textarea>
+                </div>
+              </section>  
+              <!-- 4. square number list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="square_number_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with auto number square style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="number_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+
+<style>
+.square_number_list{
+  counter-reset: my-sec-counter;
+}
+.square_number_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 23px;
+  font-size:16px;
+  line-height:20px;
+}
+.square_number_list li::before{
+  position: absolute;
+  top: 1px;
+  left: -1px;
+  width: 17px;
+  height: 17px;
+  line-height: 17px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  background: #457dad;
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter); 
+}
+</style>
+                  </textarea>
+                </div>
+              </section>  
+              <!-- 4. diamond number list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="diamond_number_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with auto number diamond style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="diamond_number_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+
+<style>
+.diamond_number_list{
+  counter-reset: my-sec-counter;
+}
+.diamond_number_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 9px 0px;
+  padding:0px 0px 0px 26px;
+  font-size:16px;
+  line-height:20px;
+}
+.diamond_number_list li::before{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;  
+  background: #457dad;
+  transform: rotate(45deg);
+  content:'';
+}
+.diamond_number_list li::after{
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 17px;
+  height: 17px;
+  line-height: 17px;
+  font-size:14px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter); 
+}
+</style>
+            
+                  </textarea>
+                </div>
+              </section>               
+              <!-- 6. bar list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="bar_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with light horizontal bar style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="bar_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>               
+
+<style>
+.bar_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 16px;
+  font-size:16px;
+  line-height:20px;
+}
+.bar_list li::before{
+  position:absolute;
+  top:8px;
+  left:0px;
+  display:inline-block;
+  width:7px;
+  height:0px;
+  border-bottom:solid 2px #457dad;
+  content:'';
+}
+</style>
+                  </textarea>
+                </div>
+              </section> 
+              <!-- 6. vbar list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="vbar_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with bold vertical bar style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="vbar_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>    
+
+<style>
+.vbar_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 13px;
+  font-size:16px;
+  line-height:20px;
+}
+.vbar_list li::before{
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  display: inline-block;
+  width: 5px;
+  height: 13px;
+  border-radius: 66px;
+  background: #457dad;
+  content: '';
+}
+</style>
+                  </textarea>
+                </div>
+              </section> 
+              <!-- 7. folder list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="folder_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with forlder style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="folder_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>         
+
+<style>
+.folder_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 25px;
+  font-size:16px;
+  line-height:20px;
+}
+.folder_list li::before{
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  background: #457dad;
+  border-radius: 0px 2px 2px 2px;
+  content: '';
+}
+.folder_list li::after{
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  display: inline-block;
+  width: 7px;
+  height: 3px;
+  background: #457dad;
+  border-radius: 0px 30% 0px 0px;
+  content: '';
+}
+</style>
+                  </textarea>
+                </div>
+              </section>  
+              <!-- 8. check list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="check_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with check style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="check_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>      
+
+<style>
+.check_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 20px;
+  font-size:16px;
+  line-height:20px;
+}
+.check_list li::before{
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  display: inline-block;
+  width: 9px;
+  height: 5px;
+  border-left: solid 2px #457dad;
+  border-bottom: solid 2px #457dad;
+  transform: rotate(-45deg);
+  content: '';
+}
+</style>
+                  </textarea>
+                </div>
+              </section> 
+              <!-- route list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="route_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with route style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="route_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>       
+
+<style>
+.route_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 18px;
+  font-size:16px;
+  line-height:20px;
+}
+.route_list li::before{
+  position: absolute;
+  top: 13px;
+  left: 3px;
+  height: 100%;
+  border-right: dashed 1px #bdbdbd;
+  content: '';
+}
+.route_list li:last-child:before{
+  display: none;
+}
+.route_list li::after{
+  position:absolute;
+  top:5px;
+  left:0px;
+  display:inline-block;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#457dad;  
+  content:'';
+}
+</style>
+                  </textarea>
+                </div>
+              </section>  
+              <!-- talk list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="talk_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  <h4>UL List with speech bubble style.</h4>
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="talk_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>               
+<style>
+.talk_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 23px;
+  font-size:16px;
+  line-height:20px;
+}
+.talk_list li::before{
+  position:absolute;
+  top:3px;
+  left:0px;
+  display:inline-block;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:#457dad;  
+  content:'';
+}
+.talk_list li::after{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-right: solid 9px #457dad;
+  border-top: solid 9px transparent;
+  transform: rotate(111deg);
+  content: '';
+}
+</style>
+                  </textarea>
+                </div>
+              </section>                                          
+          </div>
+        </div>
+        <footer>
+          © Copyright soonee456 / <a href="mailto:soonee456@gmail.com">Contact to gmail</a>
+        </footer>  
+      </div>
+</body>
+</html>
